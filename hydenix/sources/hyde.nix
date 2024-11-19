@@ -6,7 +6,7 @@ let
     owner = "frn-af";
     repo = "hyprdots";
     rev = "209ed234742f0becd1b2fe4b79acdadb0a3dd391";
-    sha256 = "";
+    sha256 = "sha256-9tePiTi/r/FjOj7DjV7IKNZOm77yTjs95YPpu79LIv0=";
   };
 
   polkitkdeauth = ''
