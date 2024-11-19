@@ -23,6 +23,25 @@
       alias lt='eza --icons=auto --tree' # list folder as tree
       alias vc='code' # gui code editor
 
+      alias cl='git clone'
+      alias ad='git add'
+      alias ba='git branch -a'
+      alias bd='git branch -D'
+      alias br='git branch'
+      alias cam='git commit -am'
+      alias co='git checkout'
+      alias cob='git checkout -b'
+      alias ci='git commit'
+      alias cm='git commit -m'
+      alias cp='git commit -p'
+      alias d='git diff'
+      alias dco='git commit -S --amend'
+      alias s='git status'
+      alias pr='git pull --rebase'
+      alias st='git status'
+      alias whoops='git reset --hard'
+      alias wipe='git commit -s'
+
       # Directory navigation shortcuts
       alias ..='cd ..'
       alias ...='cd ../..'
@@ -39,6 +58,7 @@
       source $HOME/.local/state/nix/profiles/home-manager/home-path/share/hyde/hyde-cli/shell-completions/Hyde.zsh
 
       export PATH=$HOME/.local/bin:$PATH
+      export PATH=$HOME/Development/kickstart.nixvim/result/bin:$PATH
     '';
     initExtraFirst = ''
       #Display Pokemonks
