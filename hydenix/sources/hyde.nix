@@ -5,8 +5,8 @@ let
   hyprdotsRepo = pkgs.fetchFromGitHub {
     owner = "frn-af";
     repo = "hyprdots";
-    rev = "ca38ced9d4b8a4b2a1dd82087e65c4f3d7e56a11";
-    sha256 = "";
+    rev = "209ed234742f0becd1b2fe4b79acdadb0a3dd391";
+    sha256 = "sha256-BHwHvxL9Y8ZDL9ZW9X7v++iPVUDPz2u82l4zkgegvPE=";
   };
 
   polkitkdeauth = ''
